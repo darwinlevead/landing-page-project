@@ -43,17 +43,18 @@ header div section{
     display: flex;
 }
 .welcome{
+    padding-left: 10%;
     font-size: 1.1em;
     flex: 1;
-    text-align: center;
+    text-align: left;
 }
 .welcome button{
     background: #3882f6;
     color: #f3f5fc;
     border: none;
-    width: 50%;
-    height: 40px;
-    font-size: 1.5em;
+    width: 30%;
+    height: 30px;
+    font-size: 1.1em;
 }
 .image{
     flex: 1;
@@ -130,12 +131,52 @@ main .about{
     margin: auto;
     text-align: right;
 }
-.container main .contact{
-    width: 100%;
-    height: 150px;
+main .contact{
+    display: flex;
+    justify-content: space-around;
+    background: #3882f6;
+    width: 80%;
+    height: 100px;
     flex: 1 1 auto;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.contact div{
+    background: none;
+}
+.contact div h3{
+    background: none;
+    color: #e5e7eb;
+}
+.contact div p{
+    background: none;
+    color: #e5e7eb;
+    margin-top: -15px;
+}
+.contact button{
+    border-style:double;
+    background: none;
+    height: 30px;
+    color:#e5e7eb;
+    font-weight: bolder;
+    border-color: #e5e7eb;
 }
 /*  */
-.container footer{
-    flex: 1;
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background: #1f2937;
+    flex: 1 1 auto;
+    height: 100px;
+}
+footer p{
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    background: none;
+    color: #e5e7eb;
 }
