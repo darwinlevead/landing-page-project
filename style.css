@@ -124,6 +124,13 @@ main .about{
     width: 50%;
     margin: auto;
 }
+.about p a{
+    background: none;
+    color: #1f2937;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
 .about h5{
     background: none;
     width: 50%;
